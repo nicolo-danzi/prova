@@ -1,0 +1,102 @@
+Name: UI
+Type: FolderType
+Children:
+- Name: DefaultStyleSheet
+  Id: g=a55561619dda46c75675c6e3e09426ed
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Type: SwitchStyle
+    Children:
+    - Name: Radius
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+  - Name: GaugeStyle
+    Type: GaugeStyle
+    Children:
+    - Name: Radius
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+  - Name: NavigationPanelStyle
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Type: ChartStyle
+  - Name: DataListStyle
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Type: HistogramChartStyle
+  - Name: Radius
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: InteractiveColorGradientPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+- Name: NativePresentationEngine
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: StartWindow
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"a83d894210041e84ffc710681421b22f","Namespace":6}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":12,"Namespace":3}
+  - Name: StyleSheet
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"a55561619dda46c75675c6e3e09426ed","Namespace":6}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":447,"Namespace":3}
+  - Name: EnableVirtualKeyboard
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartingUser
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"44e2345258a86b2f066f904f5806610e","Namespace":6}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":14,"Namespace":1}
+  - Name: Sessions
+    Type: BaseObjectType
+- Name: MainWindow
+  Id: g=a83d894210041e84ffc710681421b22f
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0

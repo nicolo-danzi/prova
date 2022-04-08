@@ -4,3 +4,5 @@ ProjectFiles/NetSolution/obj
 ProjectFiles/NetSolution/Private
 ProjectFiles/UserDefinedModule.xml
 IDEVersion.txt
+
+ProjectFiles/NetSolution/*.csproj
